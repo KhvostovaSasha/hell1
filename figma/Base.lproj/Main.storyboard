@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -122,30 +121,59 @@
                     <view key="view" contentMode="scaleToFill" id="zvd-YW-r9a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="History" translatesAutoresizingMaskIntoConstraints="NO" id="Ckp-e3-Bfc">
+                                <rect key="frame" x="175" y="57" width="64" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Vector-3" translatesAutoresizingMaskIntoConstraints="NO" id="Dwy-PR-XxW">
+                                <rect key="frame" x="153" y="270" width="108" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="No history yet" translatesAutoresizingMaskIntoConstraints="NO" id="f6Y-BU-E8S">
+                                <rect key="frame" x="112" y="417" width="190" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Hit the orange button down below to Create an order" translatesAutoresizingMaskIntoConstraints="NO" id="lIt-aj-GsU">
+                                <rect key="frame" x="98" y="468" width="218" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="EI6-wf-gi2">
+                                <rect key="frame" x="50" y="781" width="314" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Start odering" translatesAutoresizingMaskIntoConstraints="NO" id="D4Z-fa-ZMU">
+                                <rect key="frame" x="152" y="807" width="109" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Wbc-vm-dbP"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.94902855159999999" green="0.94900804760000002" blue="0.94901221989999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hee-mu-5Ju" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="704" y="110"/>
+            <point key="canvasLocation" x="690" y="98"/>
         </scene>
     </scenes>
     <resources>
         <image name="Group 4" width="330" height="411"/>
         <image name="Group 5" width="160" height="391"/>
+        <image name="History" width="64" height="18"/>
+        <image name="Hit the orange button down below to Create an order" width="218" height="34"/>
+        <image name="No history yet" width="190" height="28"/>
         <image name="Rectangle 1" width="95" height="11"/>
+        <image name="Rectangle 2" width="314" height="70"/>
         <image name="Rectangle 7" width="314" height="60"/>
         <image name="Search" width="53" height="14"/>
+        <image name="Start odering" width="109" height="18"/>
         <image name="Vector" width="25" height="17"/>
         <image name="Vector-2" width="20" height="20"/>
+        <image name="Vector-3" width="108" height="120"/>
         <image name="heart" width="24" height="24"/>
         <image name="heroicons-solid_home" width="65" height="65"/>
         <image name="ic_sharp-history" width="29" height="29"/>
         <image name="shopping-cart" width="24" height="24"/>
         <image name="user" width="24" height="24"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
