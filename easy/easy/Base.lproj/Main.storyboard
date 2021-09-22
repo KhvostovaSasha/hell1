@@ -31,14 +31,14 @@ What happens next? Keep an eye on your inbox as we’ll be sending you the best 
 Want to get things done faster? Choose a plan below
 If you&amp;#8217;re interested in learning more about "Hell" or need help deciding on the best plan for your business, feel free to contact our support team at any time. We&amp;#8217;re always here to help you in any way we can.
 Have an awesome day)</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We need more information about you" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uCJ-gv-jhN">
                                                 <rect key="frame" x="45" y="466" width="327" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -71,11 +71,18 @@ Have an awesome day)</string>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUb-jt-rfR">
-                                                <rect key="frame" x="138" y="1027" width="140" height="31"/>
+                                                <rect key="frame" x="125" y="869" width="153" height="37"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.20392156859999999" green="0.57128411099999998" blue="0.34901960780000002" alpha="0.18416912050000001" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Finish registration">
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Finish registration">
+                                                            <attributes>
+                                                                <font key="NSFont" size="16" name="ChalkboardSE-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
                                                     <color key="baseBackgroundColor" red="0.20392156859999999" green="0.57128411099999998" blue="0.34901960780000002" alpha="0.45800386809999999" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -121,29 +128,35 @@ Have an awesome day)</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Hell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7q-sT-K2R">
-                                <rect key="frame" x="28" y="44" width="359" height="164"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Hell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7q-sT-K2R">
+                                <rect key="frame" x="33.5" y="44" width="347.5" height="64"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="45"/>
                                 <color key="textColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.45800386809999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="461bce3bcd7b4dfae4de7adb5fd06ce3eb5bfc3e_00" translatesAutoresizingMaskIntoConstraints="NO" id="fEZ-Ff-DDX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="461bce3bcd7b4dfae4de7adb5fd06ce3eb5bfc3e_00" translatesAutoresizingMaskIntoConstraints="NO" id="fEZ-Ff-DDX">
                                 <rect key="frame" x="15" y="192" width="384" height="512"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lZ-gN-qej">
-                                <rect key="frame" x="121" y="787" width="178" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lZ-gN-qej">
+                                <rect key="frame" x="112.5" y="788" width="189" height="50"/>
                                 <color key="tintColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.45800386809999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Start working">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.45800386809999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bk7-iA-rfP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fEZ-Ff-DDX" firstAttribute="centerY" secondItem="0CU-Rl-2Yj" secondAttribute="centerY" id="3Ef-JK-fFD"/>
+                            <constraint firstItem="bk7-iA-rfP" firstAttribute="bottom" secondItem="6lZ-gN-qej" secondAttribute="bottom" constant="24" id="UNV-99-gsh"/>
+                            <constraint firstItem="l7q-sT-K2R" firstAttribute="top" secondItem="bk7-iA-rfP" secondAttribute="top" id="cZL-K2-3k9"/>
+                            <constraint firstItem="l7q-sT-K2R" firstAttribute="centerX" secondItem="0CU-Rl-2Yj" secondAttribute="centerX" id="djh-MQ-5HG"/>
+                            <constraint firstItem="6lZ-gN-qej" firstAttribute="centerX" secondItem="0CU-Rl-2Yj" secondAttribute="centerX" id="nyS-W4-J78"/>
+                            <constraint firstItem="fEZ-Ff-DDX" firstAttribute="centerX" secondItem="0CU-Rl-2Yj" secondAttribute="centerX" id="wL1-kA-EIG"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ui-He-RDc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -159,11 +172,11 @@ Have an awesome day)</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AsW-Me-nMa">
-                                <rect key="frame" x="165" y="509" width="84" height="34"/>
+                                <rect key="frame" x="167" y="507.5" width="80.5" height="35.5"/>
                                 <color key="tintColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.45800386809999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Register">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
                                     <color key="baseBackgroundColor" red="0.20392156859999999" green="0.57128411099999998" blue="0.34901960780000002" alpha="0.45800386809999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -218,26 +231,34 @@ Have an awesome day)</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VDf-nz-l6O">
-                                <rect key="frame" x="165" y="104" width="84" height="36"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <rect key="frame" x="164.5" y="104" width="85" height="42.5"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFp-dm-1rs">
-                                <rect key="frame" x="137" y="804" width="140" height="31"/>
+                                <rect key="frame" x="136.5" y="799.5" width="141" height="35.5"/>
                                 <color key="tintColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Forgot password?"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Forgot password?">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="ChalkboardSE-Regular"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="X9R-E4-yzs" kind="presentation" id="En4-74-g8D"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5C-3i-ezH">
-                                <rect key="frame" x="173" y="461" width="68" height="34"/>
+                                <rect key="frame" x="175" y="461" width="64.5" height="35.5"/>
                                 <color key="tintColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.45800386809999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Log in">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
                                     <color key="baseBackgroundColor" red="0.20392156859999999" green="0.57128411099999998" blue="0.34901960780000002" alpha="0.45800386809999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -259,10 +280,18 @@ Have an awesome day)</string>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adv-Az-h3U">
-                                <rect key="frame" x="125" y="756" width="164" height="31"/>
+                                <rect key="frame" x="123" y="751.5" width="168.5" height="35.5"/>
                                 <color key="tintColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Have not an account?"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Have not an account?">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="ChalkboardSE-Regular"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="Rv9-2l-ebv" kind="presentation" modalPresentationStyle="fullScreen" id="qPU-ks-4K4"/>
                                 </connections>
@@ -306,17 +335,17 @@ Have an awesome day)</string>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remove password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1y-C7-bKD">
-                                <rect key="frame" x="104.5" y="134" width="205" height="29"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <rect key="frame" x="99" y="134" width="216" height="37"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1O-Ha-jH7">
-                                <rect key="frame" x="165.5" y="404" width="83" height="34"/>
+                                <rect key="frame" x="169.5" y="404" width="75" height="35.5"/>
                                 <color key="tintColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.45800386809999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Remove">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
                                     <color key="baseBackgroundColor" red="0.20392156859999999" green="0.57128411099999998" blue="0.34901960780000002" alpha="0.45800386809999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -348,6 +377,38 @@ Have an awesome day)</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5tK-BN-xd1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="647.82608695652175" y="97.767857142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="f5g-or-FLk">
+            <objects>
+                <viewController id="w8T-qk-BwQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y6z-OC-5UG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOU-E7-bGB">
+                                <rect key="frame" x="20" y="44" width="61" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.18174126387532671" green="0.44611132452168412" blue="0.2071107068697787" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Menu">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="ChalkboardSE-Regular"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8PD-sI-Buv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tS5-dN-BHm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1461" y="111"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
